@@ -1,0 +1,7 @@
+{
+    "input_dir": "D:\\home\\site\\wwwroot\\Input data",
+    "output_dir": "D:\\home\\site\\wwwroot\\Output data",
+    "paybill": "333222",
+    "cutoff_time": "16:59:59",
+    "previous_closing_balance": null
+}
