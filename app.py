@@ -1249,3 +1249,9 @@ if __name__ == '__main__':
     host = '0.0.0.0' if os.environ.get('WEBSITE_SITE_NAME') else '127.0.0.1'
     
     app.run(host=host, port=port, debug=os.environ.get('FLASK_DEBUG', 'False').lower() == 'true')
+    if __name__ == '__main__':
+    import os
+    # Get port from environment variable or default to 5000
+    port = int(os.environ.get('PORT', 5000))
+    # Run the app
+    app.run(host='0.0.0.0', port=port, debug=False)
